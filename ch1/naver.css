@@ -1,0 +1,30 @@
+/*선택자(selcter)*/
+
+#Cent{
+    margin: 0 auto; width: 1080px;
+}
+
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+#Serch > h1{
+    width: 615px;
+    height: 260px;
+    background-image: url(https://s.pstatic.net/static/www/mobile/edit/20220915/mobile_174549632926.png);
+    background-position: -10px -20px;
+}
+
+/*#Serch h2{
+    display: none;
+}*/
+
+#Serch fieldset{
+    width: 510px;
+    display: inline-block;
+} 
